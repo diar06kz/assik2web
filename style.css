@@ -1,0 +1,88 @@
+body {
+  font-family: 'Verdana', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header-background {
+  background-color: #2196F3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul {
+  list-style: none;
+  padding: 0;
+}
+#navbar li {
+  display: inline;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color: #ffeb3b;
+}
+
+.layout-section {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.section-heading {
+  color: #2196F3;
+}
+.content-box {
+  margin: 15px 0;
+}
+
+.image-thumbnail {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border: 2px solid #2196F3;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.image-thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.submit-btn {
+  background-color: #2196F3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+.submit-btn:hover {
+  background-color: #0b7dda;
+}
+
+.footer-bg {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
